@@ -2,3 +2,4 @@
 *.opendb
 .vs
 out
+CMakePresets.json
