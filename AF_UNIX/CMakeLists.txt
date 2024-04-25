@@ -15,9 +15,13 @@ set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
+add_subdirectory("multiplexing")
+
+
 # Add source to this project's executable.
-add_executable (server "server.c")
-add_executable (client "client.c")
+add_executable (server "server.c" )
+add_executable (client "client.c" )
+
 
 
 
