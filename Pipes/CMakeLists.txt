@@ -18,6 +18,7 @@ set(CMAKE_CXX_EXTENSIONS        OFF)
 # Add source to this project's executable.
 add_executable (Pipes_demo "Pipes_demo.c" )
 add_executable (2ProcessPipes "2ProcessPipes.c")
+add_executable (Challenge "Challenge.c")
 
 
 
